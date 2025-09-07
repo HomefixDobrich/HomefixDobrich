@@ -2,9 +2,9 @@
   <h2>Нашите проекти</h2>
   <p>Разгледайте част от довършителните ремонти, които сме реализирали:</p>
   <div class="gallery">
-    <img src="C:\Users\msma1\OneDrive\Документи\aHomefixDobrich\gallery/20250522_081224_083645.jpg" alt="Ремонт 1">
-    <img src="C:\Users\msma1\OneDrive\Документи\aHomefixDobrich\gallery/20210907_180007_091952.jpg" alt="Ремонт 2">
-    <img src="C:\Users\msma1\OneDrive\Документи\aHomefixDobrich\gallery/20221023_112536_103222.jpg" alt="Ремонт 3">
-    <img src="C:\Users\msma1\OneDrive\Документи\aHomefixDobrich\gallery/20221023_112606_103050.jpg" alt="Ремонт 4">
+    <img src="gallery/20250522_081224_083645.jpg" alt="Ремонт 1">
+    <img src="gallery/20210907_180007_091952.jpg" alt="Ремонт 2">
+    <img src="gallery/20221023_112536_103222.jpg" alt="Ремонт 3">
+    <img src="gallery/20221023_112606_103050.jpg" alt="Ремонт 4">
   </div>
 </section>
