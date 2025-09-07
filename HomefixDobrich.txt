@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HomefixDobrich - Довършителни ремонти</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #1e3a8a;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background: #2563eb;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #1e3a8a;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      background: #1e3a8a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Добре дошли в HomefixDobrich</h1>
+    <p>Вашият доверен партньор за довършителни ремонти</p>
+  </header>
+
+  <nav>
+    <a href="#uslugi">Услуги</a>
+    <a href="#galeria">Галерия</a>
+    <a href="#za-nas">За нас</a>
+    <a href="#kontakti">Контакти</a>
+  </nav>
+
+  <section id="uslugi">
+    <h2>Нашите услуги</h2>
+    <div class="services">
+
+      <!-- Услуга 1 -->
+      <div class="card">
+        <h3>Шпакловка и боядисване</h3>
+        <p>Професионално изпълнение за перфектни стени и тавани.</p>
+      </div>
+
+      <!-- Услуга 2 -->
+      <div class="card">
+        <h3>Поставяне на плочки</h3>
+        <p>Качество и дълготрайност за вашата баня или кухня.</p>
+      </div>
+
+      <!-- Услуга 3 -->
+      <div class="card">
+        <h3>Електро и ВиК ремонти</h3>
+        <p>Надеждни инсталации и ремонтни услуги.</p>
+      </div>
+
+      <!-- Услуга 4 -->
+      <div class="card">
+        <h3>Декоративни мазилки и бои</h3>
+        <p>Модерна визия и стил за вашите стени.</p>
+      </div>
+
+      <!-- Услуга 5 -->
+      <div class="card">
+        <h3>Топлоизолация и саниране</h3>
+        <p>Икономия на енергия и комфорт във вашия дом.</p>
+      </div>
+   
+    </div>
+  </section>
+
+  <section id="galeria">
+    <h2>Нашите проекти</h2>
+    <p>Разгледайте част от довършителните ремонти, които сме реализирали:</p>
+    <div class="gallery">
+      <img src="gallery/remont1.jpg" alt="Ремонт 1">
+      <img src="gallery/remont2.jpg" alt="Ремонт 2">
+      <img src="gallery/remont3.jpg" alt="Ремонт 3">
+      <img src="gallery/remont4.jpg" alt="Ремонт 4">
+    </div>
+  </section>
+
+  <section id="za-nas">
+    <h2>За нас</h2>
+    <p>
+      В HomefixDobrich сме специализирани в довършителни ремонти и модернизация на домове.
+      Нашата мисия е да превърнем вашето жилище в уютно и красиво пространство, като работим
+      с внимание към всеки детайл.
+    </p>
+  </section>
+
+  <section id="kontakti">
+    <h2>Контакти</h2>
+    <p>📧 Имейл: <a href="mailto:homefix.dobrich@gmail.com">homefix.dobrich@gmail.com</a></p>
+    <p>📍 Град: Добрич</p>
+    <p>📞 Телефон: <a href="tel:+359892745918">0892 745 918</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 HomefixDobrich. Всички права запазени.</p>
+  </footer>
+
+</body>
+</html>
